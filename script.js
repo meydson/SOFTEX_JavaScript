@@ -52,3 +52,16 @@ function mes() {
             alert("O valor informado não corresponde a um mês do ano!")
     }
 }
+
+function escreva() {
+    for (i = 0; i < 10; i++) {
+        document.write(`Teste ${i} <br>`);
+    }
+}
+
+function exercicio_for() {
+    for (i = 100; i >= 0; i--) {
+        document.write(`${i} <br>`);
+    }
+
+}
