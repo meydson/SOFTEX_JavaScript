@@ -48,5 +48,7 @@ function mes() {
         case 12:
             alert("Dezembro");
             break
+        default:
+            alert("O valor informado não corresponde a um mês do ano!")
     }
 }
