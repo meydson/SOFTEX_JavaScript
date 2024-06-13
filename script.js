@@ -73,3 +73,13 @@ function exercicio_while() {
         i++;
     }
 }
+
+function impares() {
+    i = 100
+    while (i > 0) {
+        if (i % 2 == 1) {
+            document.write(i, "<br>")
+        }
+        i--
+    }
+}
