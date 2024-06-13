@@ -65,3 +65,11 @@ function exercicio_for() {
     }
 
 }
+
+function exercicio_while() {
+    i = 0;
+    while (i <= 10) {
+        document.write(8*i, "<br>");
+        i++;
+    }
+}
