@@ -14,9 +14,9 @@ function funcao() {
 
     if (parseInt(valor1) >= 10) {
         alert("O valor informado é maior ou igual a 10!");
-    } else (
+    } else {
         alert("O valor informado é menor que 10!")
-    )
+    }
     createButton()
 }
 
