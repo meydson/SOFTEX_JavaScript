@@ -1,12 +1,13 @@
 function createButton() {
     var btn = document.createElement('BUTTON');
     var lbl = document.createTextNode("Voltar");        
-    btn.appendChild(lbl);   
+    btn.appendChild(lbl);
+    //btn.classList.add('botao')
     btn.onclick = function()
     {
         window.history.go(0);
     }
-    document.body.appendChild(btn);    
+    document.body.appendChild(btn); 
 }
 
 function funcao() {
